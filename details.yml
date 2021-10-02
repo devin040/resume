@@ -1,0 +1,72 @@
+---
+name: Devin Tark
+email: devin.tark@gmail.com
+phone: 516-708-6096
+linkedin: devintark
+github: devin040
+address: New York, NY
+education:
+  - year: 2020
+    school: University of Illinois at Urbana Champaign
+    degree: Master's In Computer Science
+    location: Champaign, IL
+  - year: 2014
+    school: Cornell University
+    degree: B.A. History
+    location: Ithaca, NY
+  - year: 2018
+    school: North Carolina State University
+    degree: Computer Programming Certificate (21 Undergraduate Credits)
+    location: Raleigh, NC (Remote)
+skills:
+  languages: Java, SQL, Kotlin, Python, Javascript/Typescript
+  technologies:  Spring Boot, Git, APIs, Postgres, AWS, React, JUnit, Jenkins, Linux, NodeJS, Kibana
+  other: Volunteer mock interviewer for CUNY Tech Prep, Open Source contribution Mockito
+work:
+  - company: Quartet Health
+    title: Core Platform Engineer (Java, Kotlin, Typescript/React)
+    location: New York, NY
+    dates: Jan 2021 - Present
+    duties:
+    - Developed, maintained, and improved upon a Spring-boot powered API service for a health platform
+    - Designed and optimized PostgreSQL queries, cutting transaction times by as much as 80%
+    - Developed and tested AWS lambda expression to ingest CSV files upon receipt and consume by the API
+    - Identified, investigated, and resolved bugs in production; added to on-call rotation within 3 months
+  - company: United States Army (Joint Readiness Training Center)
+    title: Captain, Director of Network and Technology Support
+    location: Fort Polk, LA
+    dates: Jul 2018 - Aug 2019
+    duties:
+      - Trained Soldiers in Foreign Military Advising to conduct Security Force Assistance around the world
+      - Delivered communications and technical support to eight advising courses per month worldwide
+      - Forecasted annual budget requirements for over $1 million and procured IT equipment to support operations
+  - company: United States Army (101st Airborne Division)
+    title: First Lieutenant, Manager, Networks & Technology (Reconnaisance)
+    location: Fort Campbell, KY & Kosovo
+    dates: Dec 2015 - Jan 2018
+    duties:
+      - Led a team of fifteen Soldiers to provide robust communications architecture to a combat cavalry squadron
+      - Integrated systems from various platforms (vehicular, portable, airborne) to support combat training missions
+      - Conducted network planning for joint NATO operations in a forward deployed environment
+  - company: United States Army (Eighth Army)
+    title: Second Lieutenant, Network & Systems Engineer (Military Intelligence)
+    location: Seoul, Republic of Korea
+    dates: Dec 2014 - Dec 2015
+    duties:
+      - Planned deployment of network systems in tactical environments to advance Intelligence Operations
+      - Managed five networks at various classification levels to serve over 100 users in austere conditions
+      - Headed desk-side technical support for hardware and software issues to senior intelligence staff
+projects:
+  - name: Web Diplomacy
+    date: Feb 2021
+    bullets:
+      - Designed and implemented a web-based version of the classic board game Diplomacy
+      - Displayed board state, allowed asynchronous user input, multiple game rooms, game creation and more
+      - "Utilized: NodeJS, Express, React, Redux, MongoDB, Heroku"
+  - name: iRobot Explorer
+    date: Dec 2019
+    bullets:
+      - Programmed a RaspberryPi utilizing the OpenInterface library to control a roomba robot
+      - Handled navigation, image processing, proportional controller, and mapping
+      - "Utilized: C++, RaspberryPi, Linux (Raspbian), threading, controllers, real-time sensors"
+...
