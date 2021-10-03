@@ -5,5 +5,5 @@ sudo docker build -t pandocker .
 
 sudo docker run --rm -t \
 -v $(pwd):/workdir \
-pandocker \
-pandoc details.yml -o output/resume.pdf --template=resume.tex
+devintark/pandoc-resume:0.1 \
+pandoc details.yml -o output/resume-3Oct21.pdf --template=resume.tex

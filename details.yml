@@ -8,19 +8,19 @@ address: New York, NY
 education:
   - year: 2020
     school: University of Illinois at Urbana Champaign
-    degree: Master's In Computer Science
+    degree: Master's in Computer Science | GPA 4.0
     location: Champaign, IL
   - year: 2014
     school: Cornell University
-    degree: B.A. History
+    degree: B.A. History | GPA 3.5
     location: Ithaca, NY
   - year: 2018
     school: North Carolina State University
-    degree: Computer Programming Certificate (21 Undergraduate Credits)
+    degree: Computer Programming Certificate | GPA 3.27
     location: Raleigh, NC (Remote)
 skills:
   languages: Java, SQL, Kotlin, Python, Javascript/Typescript
-  technologies:  Spring Boot, Git, APIs, Postgres, AWS, React, JUnit, Jenkins, Linux, NodeJS, Kibana
+  technologies:  Spring Boot, APIs, Postgres, Docker, AWS, React, JUnit, Jenkins, Linux, NodeJS, Kibana
   other: Volunteer mock interviewer for CUNY Tech Prep, Open Source contribution Mockito
 work:
   - company: Quartet Health

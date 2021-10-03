@@ -100,6 +100,8 @@
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
 
+\renewcommand\labelitemi{$$\vcenter{\hbox{\tiny$$\bullet$$}}$$}
+\renewcommand\labelitemii{$$\vcenter{\hbox{\tiny$$\bullet$$}}$$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
@@ -114,7 +116,8 @@
 
 
 \begin{center}
-    {\Huge \scshape $name$} \\ \vspace{10pt}
+    {\Huge \scshape $name$} \\ \vspace{5pt}
+    {\Large Software Engineer} \\ \vspace{5pt}
 	\small $address$ $$|$$ \small \raisebox{-0.1\height}\ $phone$ ~ $$|$$ \href{mailto:$email$}{\raisebox{-0.2\height}\  $email$} ~ $$|$$
     \href{https://github.com/$github$}{\raisebox{-0.2\height}\ github.com/$github$}
     \vspace{-8pt}
@@ -130,6 +133,8 @@
 	{$education.degree$}{$education.location$}
   $endfor$
   \resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
 
 $if(skills)$
 \section{Technologies \& Skills}
@@ -175,11 +180,6 @@ $endif$
     $endfor$
     \resumeSubHeadingListEnd
 \vspace{5pt}
-
-
-%
-%-----------PROGRAMMING SKILLS-----------
-
 
 
 \end{document}
