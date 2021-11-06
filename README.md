@@ -26,12 +26,16 @@ If required, e.g. you want different fields in the resume, update the resume.tex
 Then run
 
 ```bash
-sudo docker run --rm -t \
+sudo docker run --rm -it \
 -v $(pwd):/workdir \
 repo/image:tag \
 pandoc details.yml -o output/resume-<date>.pdf --template=resume.tex
 ```
 
+On Windows, pwd works a bit different:
+```pwsh
+docker run --rm -it -v ${PWD}:/workdir devintark/pandoc-resume pandoc details.yml -o output/NAME.pdf --template=resume.tex
+```
 
 ## Contributing
 Feel free to fork for yourself, but probably not accepting contributions at this time!

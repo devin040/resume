@@ -3,7 +3,7 @@ name: Devin Tark
 email: devin.tark@gmail.com
 phone: 516-708-6096
 linkedin: devintark
-github: devin040
+github: devintark
 address: New York, NY
 education:
   - year: 2020
@@ -32,6 +32,7 @@ work:
     - Designed and optimized PostgreSQL queries, cutting transaction times by as much as 80%
     - Developed and tested AWS lambda expression to ingest CSV files upon receipt and consume by the API
     - Identified, investigated, and resolved bugs in production; added to on-call rotation within 3 months
+    - Managed, coached, mentored a summer intern; onboarded, assigned tasks, professionally developed.
   - company: United States Army (Joint Readiness Training Center)
     title: Captain, Director of Network and Technology Support
     location: Fort Polk, LA
@@ -55,7 +56,6 @@ work:
     duties:
       - Planned deployment of network systems in tactical environments to advance Intelligence Operations
       - Managed five networks at various classification levels to serve over 100 users in austere conditions
-      - Headed desk-side technical support for hardware and software issues to senior intelligence staff
 projects:
   - name: Web Diplomacy
     date: Feb 2021
