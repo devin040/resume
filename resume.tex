@@ -124,15 +124,7 @@
 \end{center}
 
 
-%-----------EDUCATION-----------
-\section{Education}
-  \resumeSubHeadingListStart
-  $for(education)$  
-	\resumeSubheading
-	{$education.school$}{$education.year$}
-	{$education.degree$}{$education.location$}
-  $endfor$
-  \resumeSubHeadingListEnd
+
 
 %-----------PROGRAMMING SKILLS-----------
 
@@ -161,6 +153,16 @@ $endif$
     $endfor$
     \resumeItemListEnd
   $endfor$
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+  $for(education)$  
+    \resumeSubheading
+    {$education.school$}{$education.year$}
+    {$education.degree$}{$education.location$}
+    $endfor$
   \resumeSubHeadingListEnd
 
 

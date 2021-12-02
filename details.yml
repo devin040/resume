@@ -10,29 +10,31 @@ education:
     school: University of Illinois at Urbana Champaign
     degree: Master's in Computer Science | GPA 4.0
     location: Champaign, IL
+  - year: 2018
+    school: North Carolina State University
+    degree: Computer Programming Certificate | GPA 3.27
+    location: Raleigh, NC (Remote)    
   - year: 2014
     school: Cornell University
     degree: B.A. History | GPA 3.5
     location: Ithaca, NY
-  - year: 2018
-    school: North Carolina State University
-    degree: Computer Programming Certificate | GPA 3.27
-    location: Raleigh, NC (Remote)
 skills:
-  languages: Java, SQL, Kotlin, Python, Javascript/Typescript
-  technologies:  Spring Boot, APIs, Postgres, Docker, AWS, React, JUnit, Jenkins, Linux, NodeJS, Kibana
+  languages: Java, SQL, Kotlin, Python, Javascript/Typescript, C++
+  technologies: Spring Boot, APIs, Postgres, Docker, AWS, React, Jenkins, Linux, NodeJS, Terra/HCL
   other: Volunteer mock interviewer for CUNY Tech Prep, Open Source contribution Mockito
 work:
   - company: Quartet Health
-    title: Core Platform Engineer (Java, Kotlin, Typescript/React)
+    title: Software Engineer II - Core Platform (Java, Kotlin, Typescript/React)
     location: New York, NY
     dates: Jan 2021 - Present
     duties:
-    - Developed, maintained, and improved upon a Spring-boot powered API service for a health platform
-    - Designed and optimized PostgreSQL queries, cutting transaction times by as much as 80%
+    - Develop, maintain, and improve upon a Spring-boot powered API service for a health platform
+    - Design and optimize PostgreSQL queries, cutting transaction times by as much as 80%
     - Developed and tested AWS lambda expression to ingest CSV files upon receipt and consume by the API
-    - Identified, investigated, and resolved bugs in production; added to on-call rotation within 3 months
-    - Managed, coached, mentored a summer intern; onboarded, assigned tasks, professionally developed.
+    - Identify, investigate, and resolve bugs in production; added to on-call rotation within 3 months
+    - Managed, coached, mentored a summer intern; onboarded, assigned tasks, professionally developed
+    - Triage issues reported from app support team for both front and back-end, delivered rapid fixes
+    - Proactively supported front-end team by designing and implementing UI features with React/Redux 
   - company: United States Army (Joint Readiness Training Center)
     title: Captain, Director of Network and Technology Support
     location: Fort Polk, LA
@@ -56,17 +58,19 @@ work:
     duties:
       - Planned deployment of network systems in tactical environments to advance Intelligence Operations
       - Managed five networks at various classification levels to serve over 100 users in austere conditions
+      - Headed desk-side technical support for hardware and software issues to senior intelligence staff
 projects:
   - name: Web Diplomacy
-    date: Feb 2021
+    date: Feb 2021 - Current
     bullets:
       - Designed and implemented a web-based version of the classic board game Diplomacy
       - Displayed board state, allowed asynchronous user input, multiple game rooms, game creation and more
+      - Rewriting backend in Kotlin/KTOR for learning
       - "Utilized: NodeJS, Express, React, Redux, MongoDB, Heroku"
-  - name: iRobot Explorer
-    date: Dec 2019
+  - name: This Resume
+    date: Active
     bullets:
-      - Programmed a RaspberryPi utilizing the OpenInterface library to control a roomba robot
-      - Handled navigation, image processing, proportional controller, and mapping
-      - "Utilized: C++, RaspberryPi, Linux (Raspbian), threading, controllers, real-time sensors"
+      - Rewrote my resume in a templated \LaTeX\ format to separate content and presentation layers
+      - Content is in a plain text yaml file, which then gets inserted into \LaTeX\ via pandoc - a markup converter
+      - Can update in any environment due to a customized Docker image. Soon to integrate with GH actions
 ...
