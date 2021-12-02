@@ -34,7 +34,8 @@ work:
     - Identify, investigate, and resolve bugs in production; added to on-call rotation within 3 months
     - Managed, coached, mentored a summer intern; onboarded, assigned tasks, professionally developed
     - Triage issues reported from app support team for both front and back-end, delivered rapid fixes
-    - Proactively supported front-end team by designing and implementing UI features with React/Redux 
+    - Proactively supports front-end team by designing and implementing UI features with React/Redux 
+    - Promoted to Software Engineer II within 9 months despite 12 month minimum policy
   - company: United States Army (Joint Readiness Training Center)
     title: Captain, Director of Network and Technology Support
     location: Fort Polk, LA
@@ -58,7 +59,6 @@ work:
     duties:
       - Planned deployment of network systems in tactical environments to advance Intelligence Operations
       - Managed five networks at various classification levels to serve over 100 users in austere conditions
-      - Headed desk-side technical support for hardware and software issues to senior intelligence staff
 projects:
   - name: Web Diplomacy
     date: Feb 2021 - Current
